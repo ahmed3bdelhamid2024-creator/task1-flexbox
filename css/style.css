@@ -1,0 +1,105 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+/* start header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1e1e;
+    padding: 20px 40px;
+    width: 100%;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #00adb5;
+}
+
+/* تنسيق قسم الـ Hero (الخلفية والمحتوى) باستخدام Flexbox */
+.hero {
+    /* يمكنك استبدال الرابط أدناه برابط الصورة الحقيقية الخاصة بالمستشفى */
+    background: url('../img-20261006T083931Z-1-001/img/back.jpg') no-repeat center center/cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.hero-content h1 {
+    font-size: 38px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.hero-content p {
+    font-size: 16px;
+    color: #e0e0e0;
+    margin-bottom: 10px;
+}
+
+/* تنسيق الأزرار باستخدام Flexbox */
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    padding: 10px 30px;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    transition: opacity 0.3s ease;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+.details-btn {
+    background-color: #7b113a; /* لون عنابي مشابه للصورة */
+}
+
+.about-btn {
+    background-color: #279b75; /* لون تركواز/أخضر مشابه للصورة */
+}
